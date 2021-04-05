@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fidelio Valido</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="images/perrito.png" alt="logo">
+        <nav id="myLinks">
+            <ul class="nav__links">
+                <li><a href="#">Bio</a></li>
+                <li><a href="#">Prints</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+                
+            </ul>
+              
+        </nav>
+        <button class="menu-button"  onclick="myFunction()">Menu</button>
+    </header>
+     <div class="container">
+         <div class="image-gallery">
+             <a href="images/1.jpg" class="img-1">
+              <i class="icon ion-md-expand"></i>
+             </a>
+             <a href="images/2.jpg" class="img-2">
+             <i class="icon ion-md-expand"></i>
+             </a>
+             <a href="images/3.jpg" class="img-3">
+             <i class="icon ion-md-expand"></i>
+             </a>
+             <a href="images/4.jpg" class="img-4">
+             <i class="icon ion-md-expand"></i>
+             </a>
+             <a href="images/5.jpg" class="img-5">
+             <i class="icon ion-md-expand"></i>
+             </a>
+             <a href="images/6.jpg" class="img-6">
+             <i class="icon ion-md-expand"></i>
+             </a>
+             <a href="images/7.jpg" class="img-7">
+             <i class="icon ion-md-expand"></i>
+             </a>
+             <a href="images/8.jpg" class="img-8">
+             <i class="icon ion-md-expand"></i>
+             </a>
+     </div>
+         </div>
+         <script>
+            function myFunction() {
+              var x = document.getElementById("myLinks");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+            </script>
+   
+    
+</body>
+</html>
